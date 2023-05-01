@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="parent stack">
+    <main className="parent stack py-10">
       <div className="stack">
         <h1 className="text-6xl">Layout Patterns</h1>
         <AspectRatioCard />
