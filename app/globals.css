@@ -25,3 +25,37 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.parent {
+  display: grid;
+  place-items: center;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stack > * {
+  margin-block: 0;
+}
+
+.stack > * + * {
+  margin-block-start: 1.5rem;
+}
+
+/* .parent {
+  display: grid;
+  place-items: center;
+} */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.visual {
+  aspect-ratio: 16/9;
+}
