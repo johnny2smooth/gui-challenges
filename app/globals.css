@@ -59,3 +59,13 @@ body {
 .visual {
   aspect-ratio: 16/9;
 }
+
+.autobot {
+  height: 300px;
+  width: 300px;
+  display: flex;
+}
+
+.autobot > * {
+  margin: auto;
+}
